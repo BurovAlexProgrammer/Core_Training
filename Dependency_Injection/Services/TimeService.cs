@@ -8,6 +8,7 @@ namespace Dependency_Injection.Services
 {
     //Пример правильной реализации слабых связей для сервиса
     //В данном случае TimeService может быть определен как любой из классов, реализовавших интерфейс ITimeService
+    //Остается сконфигурировать Startup
     public class TimeService
     {
         ITimeSender _sender;

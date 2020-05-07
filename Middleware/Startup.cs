@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace _3_Middleware
+namespace Middleware_And_Dependency_enjection
 {
     public class Startup
     {

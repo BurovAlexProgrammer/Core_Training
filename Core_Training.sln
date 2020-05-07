@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Configuration_Builder", "Configuration_Builder\1_Configuration_Builder.csproj", "{ECF4EDE8-E3B8-44F9-BCAF-EC734C9DC494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Configuration_Builder", "Configuration_Builder\1_Configuration_Builder.csproj", "{ECF4EDE8-E3B8-44F9-BCAF-EC734C9DC494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Dependency_Injection", "Dependency_Injection\2_Dependency_Injection.csproj", "{D3F4CF0C-98FE-4157-B191-61041B70A770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Dependency_Injection", "Dependency_Injection\2_Dependency_Injection.csproj", "{D3F4CF0C-98FE-4157-B191-61041B70A770}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Middleware", "Middleware\3_Middleware.csproj", "{850EEB72-190E-49B3-B082-3DCB2BC3B702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Middleware_And_Dependency_enjection", "Middleware\4_Middleware_And_Dependency_enjection.csproj", "{850EEB72-190E-49B3-B082-3DCB2BC3B702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Routing", "Routing\5_Routing.csproj", "{60EE2147-BCAF-4FED-9A0A-9DC13F79CAC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ajax", "Ajax\Ajax.csproj", "{1F10433B-A53C-4242-9D4C-AFB35A7D963A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Middleware", "Middleware_\3_Middleware.csproj", "{0282A72B-B18C-4D8A-A20F-6272FE32CBFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{850EEB72-190E-49B3-B082-3DCB2BC3B702}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850EEB72-190E-49B3-B082-3DCB2BC3B702}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850EEB72-190E-49B3-B082-3DCB2BC3B702}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60EE2147-BCAF-4FED-9A0A-9DC13F79CAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60EE2147-BCAF-4FED-9A0A-9DC13F79CAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60EE2147-BCAF-4FED-9A0A-9DC13F79CAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60EE2147-BCAF-4FED-9A0A-9DC13F79CAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F10433B-A53C-4242-9D4C-AFB35A7D963A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F10433B-A53C-4242-9D4C-AFB35A7D963A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F10433B-A53C-4242-9D4C-AFB35A7D963A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F10433B-A53C-4242-9D4C-AFB35A7D963A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0282A72B-B18C-4D8A-A20F-6272FE32CBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0282A72B-B18C-4D8A-A20F-6272FE32CBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0282A72B-B18C-4D8A-A20F-6272FE32CBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0282A72B-B18C-4D8A-A20F-6272FE32CBFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

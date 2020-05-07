@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace _3_Middleware
+namespace Middleware_And_Dependency_enjection
 {
     //Самый правильный подход, это Middleware
     //TODO тема пока раскрыта не до конца, но суть видна
